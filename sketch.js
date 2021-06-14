@@ -65,7 +65,7 @@ function setup() {
 function draw() {
   background(17, 17, 27);
 
-  reset = createButton('Reset');
+  reset = createButton('Restart');
   reset.position(displayWidth - 100, 20);
   reset.mousePressed(() => {
     enemyGroup.destroyEach();
